@@ -1,0 +1,17 @@
+{
+  "hours": 72.0,
+  "source": "post40-calibration-teacher",
+  "all_parameters_trainable": true,
+  "input_size": 64,
+  "teacher_size": 40,
+  "frozen_batchnorm_statistics": true,
+  "colour_strength": "learned, no fixed post-training attenuation",
+  "style_rehearsal": "explicit custom outline, colour, fill, brush every batch; no text-to-blob fills",
+  "teacher": "calibrated best 40px model for real and custom; frozen SigLIP soft targets",
+  "selection": "QD full validation + pinned generated prompt validation only; outside and dev final-only",
+  "guards": "black/policy/random within .2pp; real filled/brush retain previous gains within .2pp; custom black/filled/brush within .2pp installed; no increased custom/BH FA on every cohort",
+  "gpu_duty": 0.4,
+  "memory_fraction": 0.09,
+  "native_p95_budget_ms": 100,
+  "auto_install": false
+}

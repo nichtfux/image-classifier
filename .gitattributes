@@ -1,0 +1,4 @@
+*.pt binary
+*.npz binary
+*.rbxmx -diff linguist-generated
+model/** linguist-generated

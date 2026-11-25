@@ -1,0 +1,3044 @@
+{
+  "step": 1846975,
+  "student64": {
+    "black": {
+      "all": {
+        "drawings": 299000,
+        "top1": 0.7955351170568562,
+        "top3": 0.9296989966555184
+      },
+      "real": {
+        "drawings": 270000,
+        "top1": 0.7737,
+        "top3": 0.9221777777777778
+      },
+      "synthetic": {
+        "drawings": 29000,
+        "top1": 0.9988275862068966,
+        "top3": 0.9997241379310344
+      },
+      "false_alarms": {
+        "count": 258,
+        "denominator": 270000,
+        "rate": 0.0009555555555555555,
+        "worst": [
+          {
+            "label": "black hole",
+            "count": 50,
+            "rate": 0.00018518518518518518
+          },
+          {
+            "label": "meteor",
+            "count": 19,
+            "rate": 7.037037037037036e-05
+          },
+          {
+            "label": "dynamite",
+            "count": 19,
+            "rate": 7.037037037037036e-05
+          },
+          {
+            "label": "grenade",
+            "count": 17,
+            "rate": 6.296296296296296e-05
+          },
+          {
+            "label": "spiral",
+            "count": 17,
+            "rate": 6.296296296296296e-05
+          },
+          {
+            "label": "straw hat",
+            "count": 16,
+            "rate": 5.925925925925926e-05
+          },
+          {
+            "label": "cheese",
+            "count": 14,
+            "rate": 5.185185185185185e-05
+          },
+          {
+            "label": "undo arrow",
+            "count": 14,
+            "rate": 5.185185185185185e-05
+          },
+          {
+            "label": "bomb",
+            "count": 12,
+            "rate": 4.4444444444444447e-05
+          },
+          {
+            "label": "kunai",
+            "count": 11,
+            "rate": 4.074074074074074e-05
+          }
+        ]
+      },
+      "black_hole_rate": 0.00018518518518518518,
+      "custom_classes": {
+        "bomb": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "nuke": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "meteor": {
+          "drawings": 1000,
+          "top1": 0.995,
+          "top3": 1.0
+        },
+        "volcano": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "tsunami": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "black hole": {
+          "drawings": 1000,
+          "top1": 0.99,
+          "top3": 0.996
+        },
+        "pistol": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "tank": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "rocket": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "grenade": {
+          "drawings": 1000,
+          "top1": 0.997,
+          "top3": 1.0
+        },
+        "dynamite": {
+          "drawings": 1000,
+          "top1": 0.994,
+          "top3": 0.998
+        },
+        "ninja star": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "bow and arrow": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "shield": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "dinosaur": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "zombie": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "ghost": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "robot": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "alien": {
+          "drawings": 1000,
+          "top1": 0.998,
+          "top3": 0.999
+        },
+        "poop": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "heart": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "taco": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "cheese": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "straw hat": {
+          "drawings": 1000,
+          "top1": 0.998,
+          "top3": 1.0
+        },
+        "kunai": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 0.999
+        },
+        "spiral": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "cursed face": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "x2": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "undo arrow": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        }
+      }
+    },
+    "policy": {
+      "all": {
+        "drawings": 299000,
+        "top1": 0.803010033444816,
+        "top3": 0.9329297658862876
+      },
+      "real": {
+        "drawings": 270000,
+        "top1": 0.7819703703703703,
+        "top3": 0.9257555555555556
+      },
+      "synthetic": {
+        "drawings": 29000,
+        "top1": 0.9988965517241379,
+        "top3": 0.9997241379310344
+      },
+      "false_alarms": {
+        "count": 254,
+        "denominator": 270000,
+        "rate": 0.0009407407407407408,
+        "worst": [
+          {
+            "label": "black hole",
+            "count": 34,
+            "rate": 0.00012592592592592592
+          },
+          {
+            "label": "spiral",
+            "count": 20,
+            "rate": 7.407407407407407e-05
+          },
+          {
+            "label": "meteor",
+            "count": 20,
+            "rate": 7.407407407407407e-05
+          },
+          {
+            "label": "dynamite",
+            "count": 19,
+            "rate": 7.037037037037036e-05
+          },
+          {
+            "label": "grenade",
+            "count": 18,
+            "rate": 6.666666666666667e-05
+          },
+          {
+            "label": "straw hat",
+            "count": 17,
+            "rate": 6.296296296296296e-05
+          },
+          {
+            "label": "cheese",
+            "count": 14,
+            "rate": 5.185185185185185e-05
+          },
+          {
+            "label": "bomb",
+            "count": 12,
+            "rate": 4.4444444444444447e-05
+          },
+          {
+            "label": "undo arrow",
+            "count": 12,
+            "rate": 4.4444444444444447e-05
+          },
+          {
+            "label": "volcano",
+            "count": 11,
+            "rate": 4.074074074074074e-05
+          }
+        ]
+      },
+      "black_hole_rate": 0.00012592592592592592,
+      "custom_classes": {
+        "bomb": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "nuke": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "meteor": {
+          "drawings": 1000,
+          "top1": 0.996,
+          "top3": 1.0
+        },
+        "volcano": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "tsunami": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "black hole": {
+          "drawings": 1000,
+          "top1": 0.988,
+          "top3": 0.995
+        },
+        "pistol": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "tank": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "rocket": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "grenade": {
+          "drawings": 1000,
+          "top1": 0.997,
+          "top3": 1.0
+        },
+        "dynamite": {
+          "drawings": 1000,
+          "top1": 0.995,
+          "top3": 0.998
+        },
+        "ninja star": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "bow and arrow": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "shield": {
+          "drawings": 1000,
+          "top1": 0.998,
+          "top3": 1.0
+        },
+        "dinosaur": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "zombie": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "ghost": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "robot": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "alien": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 0.999
+        },
+        "poop": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "heart": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "taco": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "cheese": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "straw hat": {
+          "drawings": 1000,
+          "top1": 0.998,
+          "top3": 1.0
+        },
+        "kunai": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "spiral": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "cursed face": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "x2": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "undo arrow": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        }
+      }
+    },
+    "random": {
+      "all": {
+        "drawings": 299000,
+        "top1": 0.791561872909699,
+        "top3": 0.9274648829431438
+      },
+      "real": {
+        "drawings": 270000,
+        "top1": 0.7693037037037037,
+        "top3": 0.9197222222222222
+      },
+      "synthetic": {
+        "drawings": 29000,
+        "top1": 0.9987931034482759,
+        "top3": 0.999551724137931
+      },
+      "false_alarms": {
+        "count": 286,
+        "denominator": 270000,
+        "rate": 0.0010592592592592594,
+        "worst": [
+          {
+            "label": "spiral",
+            "count": 24,
+            "rate": 8.888888888888889e-05
+          },
+          {
+            "label": "black hole",
+            "count": 24,
+            "rate": 8.888888888888889e-05
+          },
+          {
+            "label": "meteor",
+            "count": 20,
+            "rate": 7.407407407407407e-05
+          },
+          {
+            "label": "grenade",
+            "count": 19,
+            "rate": 7.037037037037036e-05
+          },
+          {
+            "label": "pistol",
+            "count": 17,
+            "rate": 6.296296296296296e-05
+          },
+          {
+            "label": "straw hat",
+            "count": 17,
+            "rate": 6.296296296296296e-05
+          },
+          {
+            "label": "cheese",
+            "count": 17,
+            "rate": 6.296296296296296e-05
+          },
+          {
+            "label": "volcano",
+            "count": 16,
+            "rate": 5.925925925925926e-05
+          },
+          {
+            "label": "bomb",
+            "count": 15,
+            "rate": 5.555555555555556e-05
+          },
+          {
+            "label": "dynamite",
+            "count": 14,
+            "rate": 5.185185185185185e-05
+          }
+        ]
+      },
+      "black_hole_rate": 8.888888888888889e-05,
+      "custom_classes": {
+        "bomb": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "nuke": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "meteor": {
+          "drawings": 1000,
+          "top1": 0.995,
+          "top3": 1.0
+        },
+        "volcano": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "tsunami": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "black hole": {
+          "drawings": 1000,
+          "top1": 0.987,
+          "top3": 0.991
+        },
+        "pistol": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "tank": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "rocket": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "grenade": {
+          "drawings": 1000,
+          "top1": 0.998,
+          "top3": 1.0
+        },
+        "dynamite": {
+          "drawings": 1000,
+          "top1": 0.993,
+          "top3": 0.998
+        },
+        "ninja star": {
+          "drawings": 1000,
+          "top1": 0.998,
+          "top3": 1.0
+        },
+        "bow and arrow": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "shield": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "dinosaur": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "zombie": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "ghost": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "robot": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "alien": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 0.999
+        },
+        "poop": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "heart": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "taco": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "cheese": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "straw hat": {
+          "drawings": 1000,
+          "top1": 0.998,
+          "top3": 1.0
+        },
+        "kunai": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 0.999
+        },
+        "spiral": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "cursed face": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "x2": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "undo arrow": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        }
+      }
+    },
+    "filled": {
+      "all": {
+        "drawings": 299000,
+        "top1": 0.7553110367892977,
+        "top3": 0.9036923076923077
+      },
+      "real": {
+        "drawings": 270000,
+        "top1": 0.7331703703703704,
+        "top3": 0.8951222222222223
+      },
+      "synthetic": {
+        "drawings": 29000,
+        "top1": 0.9614482758620689,
+        "top3": 0.9834827586206897
+      },
+      "false_alarms": {
+        "count": 420,
+        "denominator": 270000,
+        "rate": 0.0015555555555555555,
+        "worst": [
+          {
+            "label": "black hole",
+            "count": 66,
+            "rate": 0.00024444444444444443
+          },
+          {
+            "label": "meteor",
+            "count": 38,
+            "rate": 0.00014074074074074073
+          },
+          {
+            "label": "cheese",
+            "count": 30,
+            "rate": 0.00011111111111111112
+          },
+          {
+            "label": "grenade",
+            "count": 28,
+            "rate": 0.0001037037037037037
+          },
+          {
+            "label": "shield",
+            "count": 28,
+            "rate": 0.0001037037037037037
+          },
+          {
+            "label": "volcano",
+            "count": 25,
+            "rate": 9.259259259259259e-05
+          },
+          {
+            "label": "dynamite",
+            "count": 24,
+            "rate": 8.888888888888889e-05
+          },
+          {
+            "label": "nuke",
+            "count": 17,
+            "rate": 6.296296296296296e-05
+          },
+          {
+            "label": "taco",
+            "count": 15,
+            "rate": 5.555555555555556e-05
+          },
+          {
+            "label": "ninja star",
+            "count": 14,
+            "rate": 5.185185185185185e-05
+          }
+        ]
+      },
+      "black_hole_rate": 0.00024444444444444443,
+      "custom_classes": {
+        "bomb": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "nuke": {
+          "drawings": 1000,
+          "top1": 0.996,
+          "top3": 1.0
+        },
+        "meteor": {
+          "drawings": 1000,
+          "top1": 0.981,
+          "top3": 0.992
+        },
+        "volcano": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "tsunami": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "black hole": {
+          "drawings": 1000,
+          "top1": 0.971,
+          "top3": 0.984
+        },
+        "pistol": {
+          "drawings": 1000,
+          "top1": 0.998,
+          "top3": 0.998
+        },
+        "tank": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "rocket": {
+          "drawings": 1000,
+          "top1": 0.997,
+          "top3": 1.0
+        },
+        "grenade": {
+          "drawings": 1000,
+          "top1": 0.991,
+          "top3": 0.997
+        },
+        "dynamite": {
+          "drawings": 1000,
+          "top1": 0.99,
+          "top3": 0.997
+        },
+        "ninja star": {
+          "drawings": 1000,
+          "top1": 0.998,
+          "top3": 1.0
+        },
+        "bow and arrow": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 0.999
+        },
+        "shield": {
+          "drawings": 1000,
+          "top1": 0.993,
+          "top3": 0.998
+        },
+        "dinosaur": {
+          "drawings": 1000,
+          "top1": 0.998,
+          "top3": 1.0
+        },
+        "zombie": {
+          "drawings": 1000,
+          "top1": 0.998,
+          "top3": 0.999
+        },
+        "ghost": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "robot": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "alien": {
+          "drawings": 1000,
+          "top1": 0.993,
+          "top3": 0.996
+        },
+        "poop": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "heart": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "taco": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "cheese": {
+          "drawings": 1000,
+          "top1": 0.996,
+          "top3": 0.999
+        },
+        "straw hat": {
+          "drawings": 1000,
+          "top1": 0.964,
+          "top3": 1.0
+        },
+        "kunai": {
+          "drawings": 1000,
+          "top1": 0.998,
+          "top3": 1.0
+        },
+        "spiral": {
+          "drawings": 1000,
+          "top1": 0.725,
+          "top3": 0.928
+        },
+        "cursed face": {
+          "drawings": 1000,
+          "top1": 0.322,
+          "top3": 0.642
+        },
+        "x2": {
+          "drawings": 1000,
+          "top1": 0.979,
+          "top3": 0.992
+        },
+        "undo arrow": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        }
+      }
+    },
+    "painted": {
+      "all": {
+        "drawings": 299000,
+        "top1": 0.7172709030100335,
+        "top3": 0.8754916387959866
+      },
+      "real": {
+        "drawings": 270000,
+        "top1": 0.6900592592592593,
+        "top3": 0.8638111111111111
+      },
+      "synthetic": {
+        "drawings": 29000,
+        "top1": 0.9706206896551725,
+        "top3": 0.9842413793103448
+      },
+      "false_alarms": {
+        "count": 1330,
+        "denominator": 270000,
+        "rate": 0.004925925925925926,
+        "worst": [
+          {
+            "label": "shield",
+            "count": 110,
+            "rate": 0.0004074074074074074
+          },
+          {
+            "label": "spiral",
+            "count": 107,
+            "rate": 0.0003962962962962963
+          },
+          {
+            "label": "nuke",
+            "count": 107,
+            "rate": 0.0003962962962962963
+          },
+          {
+            "label": "black hole",
+            "count": 93,
+            "rate": 0.0003444444444444444
+          },
+          {
+            "label": "cheese",
+            "count": 86,
+            "rate": 0.00031851851851851854
+          },
+          {
+            "label": "dynamite",
+            "count": 80,
+            "rate": 0.0002962962962962963
+          },
+          {
+            "label": "grenade",
+            "count": 76,
+            "rate": 0.00028148148148148146
+          },
+          {
+            "label": "meteor",
+            "count": 76,
+            "rate": 0.00028148148148148146
+          },
+          {
+            "label": "straw hat",
+            "count": 73,
+            "rate": 0.00027037037037037036
+          },
+          {
+            "label": "taco",
+            "count": 50,
+            "rate": 0.00018518518518518518
+          }
+        ]
+      },
+      "black_hole_rate": 0.0003444444444444444,
+      "custom_classes": {
+        "bomb": {
+          "drawings": 1000,
+          "top1": 0.987,
+          "top3": 0.994
+        },
+        "nuke": {
+          "drawings": 1000,
+          "top1": 0.976,
+          "top3": 0.993
+        },
+        "meteor": {
+          "drawings": 1000,
+          "top1": 0.969,
+          "top3": 0.98
+        },
+        "volcano": {
+          "drawings": 1000,
+          "top1": 0.992,
+          "top3": 0.998
+        },
+        "tsunami": {
+          "drawings": 1000,
+          "top1": 0.995,
+          "top3": 0.998
+        },
+        "black hole": {
+          "drawings": 1000,
+          "top1": 0.921,
+          "top3": 0.955
+        },
+        "pistol": {
+          "drawings": 1000,
+          "top1": 0.992,
+          "top3": 0.997
+        },
+        "tank": {
+          "drawings": 1000,
+          "top1": 0.992,
+          "top3": 0.996
+        },
+        "rocket": {
+          "drawings": 1000,
+          "top1": 0.994,
+          "top3": 0.998
+        },
+        "grenade": {
+          "drawings": 1000,
+          "top1": 0.986,
+          "top3": 0.996
+        },
+        "dynamite": {
+          "drawings": 1000,
+          "top1": 0.969,
+          "top3": 0.989
+        },
+        "ninja star": {
+          "drawings": 1000,
+          "top1": 0.996,
+          "top3": 1.0
+        },
+        "bow and arrow": {
+          "drawings": 1000,
+          "top1": 0.995,
+          "top3": 1.0
+        },
+        "shield": {
+          "drawings": 1000,
+          "top1": 0.968,
+          "top3": 0.991
+        },
+        "dinosaur": {
+          "drawings": 1000,
+          "top1": 0.997,
+          "top3": 0.998
+        },
+        "zombie": {
+          "drawings": 1000,
+          "top1": 0.979,
+          "top3": 0.992
+        },
+        "ghost": {
+          "drawings": 1000,
+          "top1": 0.995,
+          "top3": 0.999
+        },
+        "robot": {
+          "drawings": 1000,
+          "top1": 0.996,
+          "top3": 0.999
+        },
+        "alien": {
+          "drawings": 1000,
+          "top1": 0.984,
+          "top3": 0.994
+        },
+        "poop": {
+          "drawings": 1000,
+          "top1": 0.99,
+          "top3": 0.999
+        },
+        "heart": {
+          "drawings": 1000,
+          "top1": 0.994,
+          "top3": 0.998
+        },
+        "taco": {
+          "drawings": 1000,
+          "top1": 0.993,
+          "top3": 0.999
+        },
+        "cheese": {
+          "drawings": 1000,
+          "top1": 0.981,
+          "top3": 0.991
+        },
+        "straw hat": {
+          "drawings": 1000,
+          "top1": 0.969,
+          "top3": 0.997
+        },
+        "kunai": {
+          "drawings": 1000,
+          "top1": 0.992,
+          "top3": 0.997
+        },
+        "spiral": {
+          "drawings": 1000,
+          "top1": 0.84,
+          "top3": 0.894
+        },
+        "cursed face": {
+          "drawings": 1000,
+          "top1": 0.75,
+          "top3": 0.831
+        },
+        "x2": {
+          "drawings": 1000,
+          "top1": 0.958,
+          "top3": 0.97
+        },
+        "undo arrow": {
+          "drawings": 1000,
+          "top1": 0.998,
+          "top3": 1.0
+        }
+      }
+    },
+    "qd-game": {
+      "all": {
+        "drawings": 4019,
+        "top1": 0.4550883304304553,
+        "top3": 0.6593680019905449
+      },
+      "real": {
+        "drawings": 4019,
+        "top1": 0.4550883304304553,
+        "top3": 0.6593680019905449
+      },
+      "synthetic": {
+        "drawings": 0,
+        "top1": null,
+        "top3": null
+      },
+      "false_alarms": {
+        "count": 8,
+        "denominator": 4019,
+        "rate": 0.0019905449116695696,
+        "worst": [
+          {
+            "label": "poop",
+            "count": 3,
+            "rate": 0.0007464543418760885
+          },
+          {
+            "label": "bomb",
+            "count": 2,
+            "rate": 0.0004976362279173924
+          },
+          {
+            "label": "black hole",
+            "count": 1,
+            "rate": 0.0002488181139586962
+          },
+          {
+            "label": "shield",
+            "count": 1,
+            "rate": 0.0002488181139586962
+          },
+          {
+            "label": "alien",
+            "count": 1,
+            "rate": 0.0002488181139586962
+          }
+        ]
+      },
+      "black_hole_rate": 0.0002488181139586962,
+      "custom_classes": {}
+    },
+    "qd-game-black": {
+      "all": {
+        "drawings": 4019,
+        "top1": 0.4312017914904205,
+        "top3": 0.6334909181388405
+      },
+      "real": {
+        "drawings": 4019,
+        "top1": 0.4312017914904205,
+        "top3": 0.6334909181388405
+      },
+      "synthetic": {
+        "drawings": 0,
+        "top1": null,
+        "top3": null
+      },
+      "false_alarms": {
+        "count": 9,
+        "denominator": 4019,
+        "rate": 0.002239363025628266,
+        "worst": [
+          {
+            "label": "poop",
+            "count": 2,
+            "rate": 0.0004976362279173924
+          },
+          {
+            "label": "bomb",
+            "count": 2,
+            "rate": 0.0004976362279173924
+          },
+          {
+            "label": "black hole",
+            "count": 1,
+            "rate": 0.0002488181139586962
+          },
+          {
+            "label": "grenade",
+            "count": 1,
+            "rate": 0.0002488181139586962
+          },
+          {
+            "label": "dynamite",
+            "count": 1,
+            "rate": 0.0002488181139586962
+          },
+          {
+            "label": "shield",
+            "count": 1,
+            "rate": 0.0002488181139586962
+          },
+          {
+            "label": "zombie",
+            "count": 1,
+            "rate": 0.0002488181139586962
+          }
+        ]
+      },
+      "black_hole_rate": 0.0002488181139586962,
+      "custom_classes": {}
+    },
+    "generated": {
+      "all": {
+        "drawings": 357,
+        "top1": 0.988795518207283,
+        "top3": 0.9943977591036415
+      },
+      "real": {
+        "drawings": 93,
+        "top1": 0.978494623655914,
+        "top3": 0.978494623655914
+      },
+      "synthetic": {
+        "drawings": 264,
+        "top1": 0.9924242424242424,
+        "top3": 1.0
+      },
+      "false_alarms": {
+        "count": 0,
+        "denominator": 93,
+        "rate": 0.0,
+        "worst": []
+      },
+      "black_hole_rate": 0.0,
+      "custom_classes": {
+        "bomb": {
+          "drawings": 4,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "meteor": {
+          "drawings": 6,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "volcano": {
+          "drawings": 17,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "tsunami": {
+          "drawings": 11,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "pistol": {
+          "drawings": 4,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "tank": {
+          "drawings": 8,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "rocket": {
+          "drawings": 16,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "grenade": {
+          "drawings": 7,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "ninja star": {
+          "drawings": 15,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "bow and arrow": {
+          "drawings": 6,
+          "top1": 0.8333333333333334,
+          "top3": 1.0
+        },
+        "shield": {
+          "drawings": 14,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "dinosaur": {
+          "drawings": 5,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "ghost": {
+          "drawings": 23,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "alien": {
+          "drawings": 6,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "heart": {
+          "drawings": 8,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "taco": {
+          "drawings": 17,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "cheese": {
+          "drawings": 15,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "straw hat": {
+          "drawings": 4,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "kunai": {
+          "drawings": 7,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "spiral": {
+          "drawings": 28,
+          "top1": 0.9642857142857143,
+          "top3": 1.0
+        },
+        "cursed face": {
+          "drawings": 15,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "x2": {
+          "drawings": 24,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "undo arrow": {
+          "drawings": 4,
+          "top1": 1.0,
+          "top3": 1.0
+        }
+      }
+    },
+    "generated-black": {
+      "all": {
+        "drawings": 357,
+        "top1": 0.9831932773109243,
+        "top3": 0.988795518207283
+      },
+      "real": {
+        "drawings": 93,
+        "top1": 0.956989247311828,
+        "top3": 0.967741935483871
+      },
+      "synthetic": {
+        "drawings": 264,
+        "top1": 0.9924242424242424,
+        "top3": 0.9962121212121212
+      },
+      "false_alarms": {
+        "count": 0,
+        "denominator": 93,
+        "rate": 0.0,
+        "worst": []
+      },
+      "black_hole_rate": 0.0,
+      "custom_classes": {
+        "bomb": {
+          "drawings": 4,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "meteor": {
+          "drawings": 6,
+          "top1": 0.8333333333333334,
+          "top3": 0.8333333333333334
+        },
+        "volcano": {
+          "drawings": 17,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "tsunami": {
+          "drawings": 11,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "pistol": {
+          "drawings": 4,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "tank": {
+          "drawings": 8,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "rocket": {
+          "drawings": 16,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "grenade": {
+          "drawings": 7,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "ninja star": {
+          "drawings": 15,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "bow and arrow": {
+          "drawings": 6,
+          "top1": 0.8333333333333334,
+          "top3": 1.0
+        },
+        "shield": {
+          "drawings": 14,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "dinosaur": {
+          "drawings": 5,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "ghost": {
+          "drawings": 23,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "alien": {
+          "drawings": 6,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "heart": {
+          "drawings": 8,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "taco": {
+          "drawings": 17,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "cheese": {
+          "drawings": 15,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "straw hat": {
+          "drawings": 4,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "kunai": {
+          "drawings": 7,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "spiral": {
+          "drawings": 28,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "cursed face": {
+          "drawings": 15,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "x2": {
+          "drawings": 24,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "undo arrow": {
+          "drawings": 4,
+          "top1": 1.0,
+          "top3": 1.0
+        }
+      }
+    }
+  },
+  "teacher40": {
+    "black": {
+      "all": {
+        "drawings": 299000,
+        "top1": 0.7990301003344482,
+        "top3": 0.9320836120401338
+      },
+      "real": {
+        "drawings": 270000,
+        "top1": 0.7776777777777778,
+        "top3": 0.9248444444444445
+      },
+      "synthetic": {
+        "drawings": 29000,
+        "top1": 0.9978275862068966,
+        "top3": 0.9994827586206897
+      },
+      "false_alarms": {
+        "count": 259,
+        "denominator": 270000,
+        "rate": 0.0009592592592592593,
+        "worst": [
+          {
+            "label": "black hole",
+            "count": 38,
+            "rate": 0.00014074074074074073
+          },
+          {
+            "label": "spiral",
+            "count": 30,
+            "rate": 0.00011111111111111112
+          },
+          {
+            "label": "bomb",
+            "count": 22,
+            "rate": 8.148148148148148e-05
+          },
+          {
+            "label": "dynamite",
+            "count": 20,
+            "rate": 7.407407407407407e-05
+          },
+          {
+            "label": "undo arrow",
+            "count": 19,
+            "rate": 7.037037037037036e-05
+          },
+          {
+            "label": "cheese",
+            "count": 17,
+            "rate": 6.296296296296296e-05
+          },
+          {
+            "label": "meteor",
+            "count": 15,
+            "rate": 5.555555555555556e-05
+          },
+          {
+            "label": "straw hat",
+            "count": 13,
+            "rate": 4.814814814814815e-05
+          },
+          {
+            "label": "ninja star",
+            "count": 12,
+            "rate": 4.4444444444444447e-05
+          },
+          {
+            "label": "grenade",
+            "count": 9,
+            "rate": 3.3333333333333335e-05
+          }
+        ]
+      },
+      "black_hole_rate": 0.00014074074074074073,
+      "custom_classes": {
+        "bomb": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "nuke": {
+          "drawings": 1000,
+          "top1": 0.998,
+          "top3": 1.0
+        },
+        "meteor": {
+          "drawings": 1000,
+          "top1": 0.987,
+          "top3": 1.0
+        },
+        "volcano": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "tsunami": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "black hole": {
+          "drawings": 1000,
+          "top1": 0.987,
+          "top3": 0.993
+        },
+        "pistol": {
+          "drawings": 1000,
+          "top1": 0.998,
+          "top3": 0.999
+        },
+        "tank": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 0.999
+        },
+        "rocket": {
+          "drawings": 1000,
+          "top1": 0.998,
+          "top3": 1.0
+        },
+        "grenade": {
+          "drawings": 1000,
+          "top1": 0.994,
+          "top3": 1.0
+        },
+        "dynamite": {
+          "drawings": 1000,
+          "top1": 0.993,
+          "top3": 0.997
+        },
+        "ninja star": {
+          "drawings": 1000,
+          "top1": 0.996,
+          "top3": 1.0
+        },
+        "bow and arrow": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "shield": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "dinosaur": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "zombie": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "ghost": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "robot": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "alien": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 0.999
+        },
+        "poop": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 0.999
+        },
+        "heart": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "taco": {
+          "drawings": 1000,
+          "top1": 0.997,
+          "top3": 1.0
+        },
+        "cheese": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "straw hat": {
+          "drawings": 1000,
+          "top1": 0.998,
+          "top3": 1.0
+        },
+        "kunai": {
+          "drawings": 1000,
+          "top1": 0.998,
+          "top3": 0.999
+        },
+        "spiral": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "cursed face": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "x2": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "undo arrow": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        }
+      }
+    },
+    "filled": {
+      "all": {
+        "drawings": 299000,
+        "top1": 0.7467759197324415,
+        "top3": 0.899979933110368
+      },
+      "real": {
+        "drawings": 270000,
+        "top1": 0.7225555555555555,
+        "top3": 0.8903037037037037
+      },
+      "synthetic": {
+        "drawings": 29000,
+        "top1": 0.9722758620689655,
+        "top3": 0.9900689655172413
+      },
+      "false_alarms": {
+        "count": 601,
+        "denominator": 270000,
+        "rate": 0.002225925925925926,
+        "worst": [
+          {
+            "label": "black hole",
+            "count": 53,
+            "rate": 0.0001962962962962963
+          },
+          {
+            "label": "meteor",
+            "count": 50,
+            "rate": 0.00018518518518518518
+          },
+          {
+            "label": "grenade",
+            "count": 38,
+            "rate": 0.00014074074074074073
+          },
+          {
+            "label": "bomb",
+            "count": 38,
+            "rate": 0.00014074074074074073
+          },
+          {
+            "label": "shield",
+            "count": 38,
+            "rate": 0.00014074074074074073
+          },
+          {
+            "label": "spiral",
+            "count": 37,
+            "rate": 0.00013703703703703705
+          },
+          {
+            "label": "taco",
+            "count": 37,
+            "rate": 0.00013703703703703705
+          },
+          {
+            "label": "cheese",
+            "count": 35,
+            "rate": 0.00012962962962962963
+          },
+          {
+            "label": "dynamite",
+            "count": 33,
+            "rate": 0.00012222222222222221
+          },
+          {
+            "label": "volcano",
+            "count": 28,
+            "rate": 0.0001037037037037037
+          }
+        ]
+      },
+      "black_hole_rate": 0.0001962962962962963,
+      "custom_classes": {
+        "bomb": {
+          "drawings": 1000,
+          "top1": 0.996,
+          "top3": 0.999
+        },
+        "nuke": {
+          "drawings": 1000,
+          "top1": 0.987,
+          "top3": 0.998
+        },
+        "meteor": {
+          "drawings": 1000,
+          "top1": 0.961,
+          "top3": 0.981
+        },
+        "volcano": {
+          "drawings": 1000,
+          "top1": 0.996,
+          "top3": 1.0
+        },
+        "tsunami": {
+          "drawings": 1000,
+          "top1": 0.998,
+          "top3": 1.0
+        },
+        "black hole": {
+          "drawings": 1000,
+          "top1": 0.941,
+          "top3": 0.968
+        },
+        "pistol": {
+          "drawings": 1000,
+          "top1": 0.986,
+          "top3": 0.993
+        },
+        "tank": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "rocket": {
+          "drawings": 1000,
+          "top1": 0.993,
+          "top3": 0.997
+        },
+        "grenade": {
+          "drawings": 1000,
+          "top1": 0.983,
+          "top3": 0.993
+        },
+        "dynamite": {
+          "drawings": 1000,
+          "top1": 0.982,
+          "top3": 0.993
+        },
+        "ninja star": {
+          "drawings": 1000,
+          "top1": 0.988,
+          "top3": 0.998
+        },
+        "bow and arrow": {
+          "drawings": 1000,
+          "top1": 0.997,
+          "top3": 0.999
+        },
+        "shield": {
+          "drawings": 1000,
+          "top1": 0.978,
+          "top3": 0.996
+        },
+        "dinosaur": {
+          "drawings": 1000,
+          "top1": 0.99,
+          "top3": 0.998
+        },
+        "zombie": {
+          "drawings": 1000,
+          "top1": 0.984,
+          "top3": 0.996
+        },
+        "ghost": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "robot": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 0.999
+        },
+        "alien": {
+          "drawings": 1000,
+          "top1": 0.988,
+          "top3": 0.995
+        },
+        "poop": {
+          "drawings": 1000,
+          "top1": 0.995,
+          "top3": 0.999
+        },
+        "heart": {
+          "drawings": 1000,
+          "top1": 0.997,
+          "top3": 0.999
+        },
+        "taco": {
+          "drawings": 1000,
+          "top1": 0.992,
+          "top3": 0.997
+        },
+        "cheese": {
+          "drawings": 1000,
+          "top1": 0.977,
+          "top3": 0.995
+        },
+        "straw hat": {
+          "drawings": 1000,
+          "top1": 0.968,
+          "top3": 1.0
+        },
+        "kunai": {
+          "drawings": 1000,
+          "top1": 0.996,
+          "top3": 0.999
+        },
+        "spiral": {
+          "drawings": 1000,
+          "top1": 0.806,
+          "top3": 0.943
+        },
+        "cursed face": {
+          "drawings": 1000,
+          "top1": 0.726,
+          "top3": 0.877
+        },
+        "x2": {
+          "drawings": 1000,
+          "top1": 0.992,
+          "top3": 1.0
+        },
+        "undo arrow": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        }
+      }
+    },
+    "generated-black": {
+      "all": {
+        "drawings": 357,
+        "top1": 0.9467787114845938,
+        "top3": 0.9747899159663865
+      },
+      "real": {
+        "drawings": 93,
+        "top1": 0.9032258064516129,
+        "top3": 0.956989247311828
+      },
+      "synthetic": {
+        "drawings": 264,
+        "top1": 0.9621212121212122,
+        "top3": 0.9810606060606061
+      },
+      "false_alarms": {
+        "count": 1,
+        "denominator": 93,
+        "rate": 0.010752688172043012,
+        "worst": [
+          {
+            "label": "undo arrow",
+            "count": 1,
+            "rate": 0.010752688172043012
+          }
+        ]
+      },
+      "black_hole_rate": 0.0,
+      "custom_classes": {
+        "bomb": {
+          "drawings": 4,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "meteor": {
+          "drawings": 6,
+          "top1": 0.5,
+          "top3": 0.6666666666666666
+        },
+        "volcano": {
+          "drawings": 17,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "tsunami": {
+          "drawings": 11,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "pistol": {
+          "drawings": 4,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "tank": {
+          "drawings": 8,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "rocket": {
+          "drawings": 16,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "grenade": {
+          "drawings": 7,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "ninja star": {
+          "drawings": 15,
+          "top1": 0.8666666666666667,
+          "top3": 1.0
+        },
+        "bow and arrow": {
+          "drawings": 6,
+          "top1": 0.8333333333333334,
+          "top3": 0.8333333333333334
+        },
+        "shield": {
+          "drawings": 14,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "dinosaur": {
+          "drawings": 5,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "ghost": {
+          "drawings": 23,
+          "top1": 0.9565217391304348,
+          "top3": 1.0
+        },
+        "alien": {
+          "drawings": 6,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "heart": {
+          "drawings": 8,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "taco": {
+          "drawings": 17,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "cheese": {
+          "drawings": 15,
+          "top1": 0.9333333333333333,
+          "top3": 0.9333333333333333
+        },
+        "straw hat": {
+          "drawings": 4,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "kunai": {
+          "drawings": 7,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "spiral": {
+          "drawings": 28,
+          "top1": 0.9642857142857143,
+          "top3": 0.9642857142857143
+        },
+        "cursed face": {
+          "drawings": 15,
+          "top1": 0.9333333333333333,
+          "top3": 1.0
+        },
+        "x2": {
+          "drawings": 24,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "undo arrow": {
+          "drawings": 4,
+          "top1": 1.0,
+          "top3": 1.0
+        }
+      }
+    },
+    "generated": {
+      "all": {
+        "drawings": 357,
+        "top1": 0.9495798319327731,
+        "top3": 0.9719887955182073
+      },
+      "real": {
+        "drawings": 93,
+        "top1": 0.8817204301075269,
+        "top3": 0.9354838709677419
+      },
+      "synthetic": {
+        "drawings": 264,
+        "top1": 0.9734848484848485,
+        "top3": 0.9848484848484849
+      },
+      "false_alarms": {
+        "count": 1,
+        "denominator": 93,
+        "rate": 0.010752688172043012,
+        "worst": [
+          {
+            "label": "undo arrow",
+            "count": 1,
+            "rate": 0.010752688172043012
+          }
+        ]
+      },
+      "black_hole_rate": 0.0,
+      "custom_classes": {
+        "bomb": {
+          "drawings": 4,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "meteor": {
+          "drawings": 6,
+          "top1": 0.5,
+          "top3": 0.6666666666666666
+        },
+        "volcano": {
+          "drawings": 17,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "tsunami": {
+          "drawings": 11,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "pistol": {
+          "drawings": 4,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "tank": {
+          "drawings": 8,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "rocket": {
+          "drawings": 16,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "grenade": {
+          "drawings": 7,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "ninja star": {
+          "drawings": 15,
+          "top1": 0.8666666666666667,
+          "top3": 1.0
+        },
+        "bow and arrow": {
+          "drawings": 6,
+          "top1": 0.8333333333333334,
+          "top3": 0.8333333333333334
+        },
+        "shield": {
+          "drawings": 14,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "dinosaur": {
+          "drawings": 5,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "ghost": {
+          "drawings": 23,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "alien": {
+          "drawings": 6,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "heart": {
+          "drawings": 8,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "taco": {
+          "drawings": 17,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "cheese": {
+          "drawings": 15,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "straw hat": {
+          "drawings": 4,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "kunai": {
+          "drawings": 7,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "spiral": {
+          "drawings": 28,
+          "top1": 0.9642857142857143,
+          "top3": 0.9642857142857143
+        },
+        "cursed face": {
+          "drawings": 15,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "x2": {
+          "drawings": 24,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "undo arrow": {
+          "drawings": 4,
+          "top1": 1.0,
+          "top3": 1.0
+        }
+      }
+    },
+    "painted": {
+      "all": {
+        "drawings": 299000,
+        "top1": 0.7226454849498328,
+        "top3": 0.8808662207357859
+      },
+      "real": {
+        "drawings": 270000,
+        "top1": 0.6975111111111111,
+        "top3": 0.8702925925925926
+      },
+      "synthetic": {
+        "drawings": 29000,
+        "top1": 0.956655172413793,
+        "top3": 0.9793103448275862
+      },
+      "false_alarms": {
+        "count": 1451,
+        "denominator": 270000,
+        "rate": 0.005374074074074074,
+        "worst": [
+          {
+            "label": "spiral",
+            "count": 167,
+            "rate": 0.0006185185185185186
+          },
+          {
+            "label": "grenade",
+            "count": 119,
+            "rate": 0.00044074074074074073
+          },
+          {
+            "label": "nuke",
+            "count": 117,
+            "rate": 0.0004333333333333333
+          },
+          {
+            "label": "dynamite",
+            "count": 101,
+            "rate": 0.0003740740740740741
+          },
+          {
+            "label": "black hole",
+            "count": 98,
+            "rate": 0.000362962962962963
+          },
+          {
+            "label": "bomb",
+            "count": 81,
+            "rate": 0.0003
+          },
+          {
+            "label": "shield",
+            "count": 79,
+            "rate": 0.0002925925925925926
+          },
+          {
+            "label": "cheese",
+            "count": 73,
+            "rate": 0.00027037037037037036
+          },
+          {
+            "label": "straw hat",
+            "count": 72,
+            "rate": 0.0002666666666666667
+          },
+          {
+            "label": "zombie",
+            "count": 70,
+            "rate": 0.00025925925925925926
+          }
+        ]
+      },
+      "black_hole_rate": 0.000362962962962963,
+      "custom_classes": {
+        "bomb": {
+          "drawings": 1000,
+          "top1": 0.975,
+          "top3": 0.989
+        },
+        "nuke": {
+          "drawings": 1000,
+          "top1": 0.943,
+          "top3": 0.976
+        },
+        "meteor": {
+          "drawings": 1000,
+          "top1": 0.923,
+          "top3": 0.954
+        },
+        "volcano": {
+          "drawings": 1000,
+          "top1": 0.982,
+          "top3": 0.995
+        },
+        "tsunami": {
+          "drawings": 1000,
+          "top1": 0.982,
+          "top3": 0.995
+        },
+        "black hole": {
+          "drawings": 1000,
+          "top1": 0.887,
+          "top3": 0.929
+        },
+        "pistol": {
+          "drawings": 1000,
+          "top1": 0.975,
+          "top3": 0.989
+        },
+        "tank": {
+          "drawings": 1000,
+          "top1": 0.983,
+          "top3": 0.989
+        },
+        "rocket": {
+          "drawings": 1000,
+          "top1": 0.978,
+          "top3": 0.987
+        },
+        "grenade": {
+          "drawings": 1000,
+          "top1": 0.976,
+          "top3": 0.993
+        },
+        "dynamite": {
+          "drawings": 1000,
+          "top1": 0.952,
+          "top3": 0.979
+        },
+        "ninja star": {
+          "drawings": 1000,
+          "top1": 0.973,
+          "top3": 0.998
+        },
+        "bow and arrow": {
+          "drawings": 1000,
+          "top1": 0.986,
+          "top3": 0.995
+        },
+        "shield": {
+          "drawings": 1000,
+          "top1": 0.941,
+          "top3": 0.98
+        },
+        "dinosaur": {
+          "drawings": 1000,
+          "top1": 0.985,
+          "top3": 0.996
+        },
+        "zombie": {
+          "drawings": 1000,
+          "top1": 0.96,
+          "top3": 0.986
+        },
+        "ghost": {
+          "drawings": 1000,
+          "top1": 0.986,
+          "top3": 0.997
+        },
+        "robot": {
+          "drawings": 1000,
+          "top1": 0.986,
+          "top3": 0.997
+        },
+        "alien": {
+          "drawings": 1000,
+          "top1": 0.965,
+          "top3": 0.983
+        },
+        "poop": {
+          "drawings": 1000,
+          "top1": 0.981,
+          "top3": 0.994
+        },
+        "heart": {
+          "drawings": 1000,
+          "top1": 0.974,
+          "top3": 0.997
+        },
+        "taco": {
+          "drawings": 1000,
+          "top1": 0.964,
+          "top3": 0.991
+        },
+        "cheese": {
+          "drawings": 1000,
+          "top1": 0.949,
+          "top3": 0.971
+        },
+        "straw hat": {
+          "drawings": 1000,
+          "top1": 0.947,
+          "top3": 0.994
+        },
+        "kunai": {
+          "drawings": 1000,
+          "top1": 0.981,
+          "top3": 0.993
+        },
+        "spiral": {
+          "drawings": 1000,
+          "top1": 0.828,
+          "top3": 0.897
+        },
+        "cursed face": {
+          "drawings": 1000,
+          "top1": 0.817,
+          "top3": 0.881
+        },
+        "x2": {
+          "drawings": 1000,
+          "top1": 0.97,
+          "top3": 0.978
+        },
+        "undo arrow": {
+          "drawings": 1000,
+          "top1": 0.994,
+          "top3": 0.997
+        }
+      }
+    },
+    "policy": {
+      "all": {
+        "drawings": 299000,
+        "top1": 0.804056856187291,
+        "top3": 0.934190635451505
+      },
+      "real": {
+        "drawings": 270000,
+        "top1": 0.7832259259259259,
+        "top3": 0.9271814814814815
+      },
+      "synthetic": {
+        "drawings": 29000,
+        "top1": 0.998,
+        "top3": 0.999448275862069
+      },
+      "false_alarms": {
+        "count": 271,
+        "denominator": 270000,
+        "rate": 0.0010037037037037037,
+        "worst": [
+          {
+            "label": "spiral",
+            "count": 36,
+            "rate": 0.00013333333333333334
+          },
+          {
+            "label": "black hole",
+            "count": 28,
+            "rate": 0.0001037037037037037
+          },
+          {
+            "label": "bomb",
+            "count": 20,
+            "rate": 7.407407407407407e-05
+          },
+          {
+            "label": "dynamite",
+            "count": 17,
+            "rate": 6.296296296296296e-05
+          },
+          {
+            "label": "straw hat",
+            "count": 16,
+            "rate": 5.925925925925926e-05
+          },
+          {
+            "label": "meteor",
+            "count": 16,
+            "rate": 5.925925925925926e-05
+          },
+          {
+            "label": "cheese",
+            "count": 15,
+            "rate": 5.555555555555556e-05
+          },
+          {
+            "label": "undo arrow",
+            "count": 13,
+            "rate": 4.814814814814815e-05
+          },
+          {
+            "label": "grenade",
+            "count": 12,
+            "rate": 4.4444444444444447e-05
+          },
+          {
+            "label": "ninja star",
+            "count": 12,
+            "rate": 4.4444444444444447e-05
+          }
+        ]
+      },
+      "black_hole_rate": 0.0001037037037037037,
+      "custom_classes": {
+        "bomb": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "nuke": {
+          "drawings": 1000,
+          "top1": 0.998,
+          "top3": 1.0
+        },
+        "meteor": {
+          "drawings": 1000,
+          "top1": 0.99,
+          "top3": 1.0
+        },
+        "volcano": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "tsunami": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "black hole": {
+          "drawings": 1000,
+          "top1": 0.981,
+          "top3": 0.992
+        },
+        "pistol": {
+          "drawings": 1000,
+          "top1": 0.998,
+          "top3": 0.999
+        },
+        "tank": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 0.999
+        },
+        "rocket": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "grenade": {
+          "drawings": 1000,
+          "top1": 0.996,
+          "top3": 1.0
+        },
+        "dynamite": {
+          "drawings": 1000,
+          "top1": 0.993,
+          "top3": 0.997
+        },
+        "ninja star": {
+          "drawings": 1000,
+          "top1": 0.998,
+          "top3": 1.0
+        },
+        "bow and arrow": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "shield": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "dinosaur": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "zombie": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "ghost": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "robot": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "alien": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 0.999
+        },
+        "poop": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 0.999
+        },
+        "heart": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "taco": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "cheese": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "straw hat": {
+          "drawings": 1000,
+          "top1": 0.997,
+          "top3": 1.0
+        },
+        "kunai": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 0.999
+        },
+        "spiral": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "cursed face": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "x2": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "undo arrow": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        }
+      }
+    },
+    "qd-game-black": {
+      "all": {
+        "drawings": 4019,
+        "top1": 0.36277681015177904,
+        "top3": 0.5683005722816621
+      },
+      "real": {
+        "drawings": 4019,
+        "top1": 0.36277681015177904,
+        "top3": 0.5683005722816621
+      },
+      "synthetic": {
+        "drawings": 0,
+        "top1": null,
+        "top3": null
+      },
+      "false_alarms": {
+        "count": 15,
+        "denominator": 4019,
+        "rate": 0.003732271709380443,
+        "worst": [
+          {
+            "label": "black hole",
+            "count": 6,
+            "rate": 0.001492908683752177
+          },
+          {
+            "label": "meteor",
+            "count": 4,
+            "rate": 0.0009952724558347848
+          },
+          {
+            "label": "undo arrow",
+            "count": 2,
+            "rate": 0.0004976362279173924
+          },
+          {
+            "label": "bomb",
+            "count": 1,
+            "rate": 0.0002488181139586962
+          },
+          {
+            "label": "tank",
+            "count": 1,
+            "rate": 0.0002488181139586962
+          },
+          {
+            "label": "grenade",
+            "count": 1,
+            "rate": 0.0002488181139586962
+          }
+        ]
+      },
+      "black_hole_rate": 0.001492908683752177,
+      "custom_classes": {}
+    },
+    "qd-game": {
+      "all": {
+        "drawings": 4019,
+        "top1": 0.3908932570291117,
+        "top3": 0.5901965663100274
+      },
+      "real": {
+        "drawings": 4019,
+        "top1": 0.3908932570291117,
+        "top3": 0.5901965663100274
+      },
+      "synthetic": {
+        "drawings": 0,
+        "top1": null,
+        "top3": null
+      },
+      "false_alarms": {
+        "count": 13,
+        "denominator": 4019,
+        "rate": 0.0032346354814630504,
+        "worst": [
+          {
+            "label": "grenade",
+            "count": 3,
+            "rate": 0.0007464543418760885
+          },
+          {
+            "label": "undo arrow",
+            "count": 2,
+            "rate": 0.0004976362279173924
+          },
+          {
+            "label": "black hole",
+            "count": 2,
+            "rate": 0.0004976362279173924
+          },
+          {
+            "label": "bomb",
+            "count": 1,
+            "rate": 0.0002488181139586962
+          },
+          {
+            "label": "poop",
+            "count": 1,
+            "rate": 0.0002488181139586962
+          },
+          {
+            "label": "meteor",
+            "count": 1,
+            "rate": 0.0002488181139586962
+          },
+          {
+            "label": "tank",
+            "count": 1,
+            "rate": 0.0002488181139586962
+          },
+          {
+            "label": "dynamite",
+            "count": 1,
+            "rate": 0.0002488181139586962
+          },
+          {
+            "label": "robot",
+            "count": 1,
+            "rate": 0.0002488181139586962
+          }
+        ]
+      },
+      "black_hole_rate": 0.0004976362279173924,
+      "custom_classes": {}
+    },
+    "random": {
+      "all": {
+        "drawings": 299000,
+        "top1": 0.7945551839464883,
+        "top3": 0.929752508361204
+      },
+      "real": {
+        "drawings": 270000,
+        "top1": 0.7728074074074074,
+        "top3": 0.9222888888888889
+      },
+      "synthetic": {
+        "drawings": 29000,
+        "top1": 0.9970344827586207,
+        "top3": 0.9992413793103448
+      },
+      "false_alarms": {
+        "count": 298,
+        "denominator": 270000,
+        "rate": 0.0011037037037037037,
+        "worst": [
+          {
+            "label": "spiral",
+            "count": 42,
+            "rate": 0.00015555555555555556
+          },
+          {
+            "label": "black hole",
+            "count": 21,
+            "rate": 7.777777777777778e-05
+          },
+          {
+            "label": "bomb",
+            "count": 19,
+            "rate": 7.037037037037036e-05
+          },
+          {
+            "label": "meteor",
+            "count": 18,
+            "rate": 6.666666666666667e-05
+          },
+          {
+            "label": "straw hat",
+            "count": 18,
+            "rate": 6.666666666666667e-05
+          },
+          {
+            "label": "dynamite",
+            "count": 18,
+            "rate": 6.666666666666667e-05
+          },
+          {
+            "label": "dinosaur",
+            "count": 16,
+            "rate": 5.925925925925926e-05
+          },
+          {
+            "label": "grenade",
+            "count": 15,
+            "rate": 5.555555555555556e-05
+          },
+          {
+            "label": "undo arrow",
+            "count": 15,
+            "rate": 5.555555555555556e-05
+          },
+          {
+            "label": "cheese",
+            "count": 13,
+            "rate": 4.814814814814815e-05
+          }
+        ]
+      },
+      "black_hole_rate": 7.777777777777778e-05,
+      "custom_classes": {
+        "bomb": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "nuke": {
+          "drawings": 1000,
+          "top1": 0.996,
+          "top3": 1.0
+        },
+        "meteor": {
+          "drawings": 1000,
+          "top1": 0.99,
+          "top3": 0.999
+        },
+        "volcano": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "tsunami": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "black hole": {
+          "drawings": 1000,
+          "top1": 0.964,
+          "top3": 0.987
+        },
+        "pistol": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 0.999
+        },
+        "tank": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "rocket": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 1.0
+        },
+        "grenade": {
+          "drawings": 1000,
+          "top1": 0.995,
+          "top3": 1.0
+        },
+        "dynamite": {
+          "drawings": 1000,
+          "top1": 0.99,
+          "top3": 0.997
+        },
+        "ninja star": {
+          "drawings": 1000,
+          "top1": 0.994,
+          "top3": 1.0
+        },
+        "bow and arrow": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "shield": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "dinosaur": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "zombie": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "ghost": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "robot": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "alien": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 0.999
+        },
+        "poop": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 0.999
+        },
+        "heart": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "taco": {
+          "drawings": 1000,
+          "top1": 0.996,
+          "top3": 1.0
+        },
+        "cheese": {
+          "drawings": 1000,
+          "top1": 0.999,
+          "top3": 0.999
+        },
+        "straw hat": {
+          "drawings": 1000,
+          "top1": 0.997,
+          "top3": 1.0
+        },
+        "kunai": {
+          "drawings": 1000,
+          "top1": 0.998,
+          "top3": 0.999
+        },
+        "spiral": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "cursed face": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "x2": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        },
+        "undo arrow": {
+          "drawings": 1000,
+          "top1": 1.0,
+          "top3": 1.0
+        }
+      }
+    }
+  },
+  "same_drawing_ids": true,
+  "resolution_notes": "QD and generated strokes rendered directly at each size. Pixel brush augmentation scales by 1.6. Legacy raster-only rehearsal is resized."
+}

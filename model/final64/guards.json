@@ -1,0 +1,1394 @@
+{
+  "eligible": false,
+  "failures": [
+    "black/custom-false-alarm",
+    "policy/custom-false-alarm",
+    "random/custom-false-alarm",
+    "filled/spiral/top1",
+    "filled/spiral/top3",
+    "filled/cursed face/top1",
+    "filled/cursed face/top3",
+    "filled/x2/top1",
+    "filled/x2/top3",
+    "painted/real/top1",
+    "painted/real/top3",
+    "painted/custom-false-alarm",
+    "painted/black-hole-false-alarm",
+    "qd-game-black/custom-false-alarm",
+    "black/real/top1/teacher40",
+    "black/real/top3/teacher40"
+  ],
+  "rows": [
+    {
+      "guard": "black/real/top1",
+      "value": 0.7737,
+      "minimum": 0.7705703703703703,
+      "pass": true
+    },
+    {
+      "guard": "black/real/top3",
+      "value": 0.9221777777777778,
+      "minimum": 0.9203481481481481,
+      "pass": true
+    },
+    {
+      "guard": "black/synthetic/top1",
+      "value": 0.9988275862068966,
+      "minimum": 0.993103448275862,
+      "pass": true
+    },
+    {
+      "guard": "black/synthetic/top3",
+      "value": 0.9997241379310344,
+      "minimum": 0.9965172413793103,
+      "pass": true
+    },
+    {
+      "guard": "black/custom-false-alarm",
+      "value": 0.0009555555555555555,
+      "maximum": 0.0006925925925925926,
+      "pass": false
+    },
+    {
+      "guard": "black/black-hole-false-alarm",
+      "value": 0.00018518518518518518,
+      "maximum": 0.0002074074074074074,
+      "pass": true
+    },
+    {
+      "guard": "black/bomb/top1",
+      "value": 1.0,
+      "minimum": 0.995,
+      "pass": true
+    },
+    {
+      "guard": "black/bomb/top3",
+      "value": 1.0,
+      "minimum": 0.997,
+      "pass": true
+    },
+    {
+      "guard": "black/nuke/top1",
+      "value": 1.0,
+      "minimum": 0.994,
+      "pass": true
+    },
+    {
+      "guard": "black/nuke/top3",
+      "value": 1.0,
+      "minimum": 0.998,
+      "pass": true
+    },
+    {
+      "guard": "black/meteor/top1",
+      "value": 0.995,
+      "minimum": 0.981,
+      "pass": true
+    },
+    {
+      "guard": "black/meteor/top3",
+      "value": 1.0,
+      "minimum": 0.99,
+      "pass": true
+    },
+    {
+      "guard": "black/volcano/top1",
+      "value": 1.0,
+      "minimum": 0.997,
+      "pass": true
+    },
+    {
+      "guard": "black/volcano/top3",
+      "value": 1.0,
+      "minimum": 0.998,
+      "pass": true
+    },
+    {
+      "guard": "black/tsunami/top1",
+      "value": 1.0,
+      "minimum": 0.998,
+      "pass": true
+    },
+    {
+      "guard": "black/tsunami/top3",
+      "value": 1.0,
+      "minimum": 0.998,
+      "pass": true
+    },
+    {
+      "guard": "black/black hole/top1",
+      "value": 0.99,
+      "minimum": 0.972,
+      "pass": true
+    },
+    {
+      "guard": "black/black hole/top3",
+      "value": 0.996,
+      "minimum": 0.987,
+      "pass": true
+    },
+    {
+      "guard": "black/pistol/top1",
+      "value": 1.0,
+      "minimum": 0.996,
+      "pass": true
+    },
+    {
+      "guard": "black/pistol/top3",
+      "value": 1.0,
+      "minimum": 0.997,
+      "pass": true
+    },
+    {
+      "guard": "black/tank/top1",
+      "value": 1.0,
+      "minimum": 0.997,
+      "pass": true
+    },
+    {
+      "guard": "black/tank/top3",
+      "value": 1.0,
+      "minimum": 0.997,
+      "pass": true
+    },
+    {
+      "guard": "black/rocket/top1",
+      "value": 1.0,
+      "minimum": 0.994,
+      "pass": true
+    },
+    {
+      "guard": "black/rocket/top3",
+      "value": 1.0,
+      "minimum": 0.998,
+      "pass": true
+    },
+    {
+      "guard": "black/grenade/top1",
+      "value": 0.997,
+      "minimum": 0.987,
+      "pass": true
+    },
+    {
+      "guard": "black/grenade/top3",
+      "value": 1.0,
+      "minimum": 0.996,
+      "pass": true
+    },
+    {
+      "guard": "black/dynamite/top1",
+      "value": 0.994,
+      "minimum": 0.968,
+      "pass": true
+    },
+    {
+      "guard": "black/dynamite/top3",
+      "value": 0.998,
+      "minimum": 0.99,
+      "pass": true
+    },
+    {
+      "guard": "black/ninja star/top1",
+      "value": 0.999,
+      "minimum": 0.989,
+      "pass": true
+    },
+    {
+      "guard": "black/ninja star/top3",
+      "value": 1.0,
+      "minimum": 0.998,
+      "pass": true
+    },
+    {
+      "guard": "black/bow and arrow/top1",
+      "value": 1.0,
+      "minimum": 0.996,
+      "pass": true
+    },
+    {
+      "guard": "black/bow and arrow/top3",
+      "value": 1.0,
+      "minimum": 0.997,
+      "pass": true
+    },
+    {
+      "guard": "black/shield/top1",
+      "value": 0.999,
+      "minimum": 0.995,
+      "pass": true
+    },
+    {
+      "guard": "black/shield/top3",
+      "value": 1.0,
+      "minimum": 0.998,
+      "pass": true
+    },
+    {
+      "guard": "black/dinosaur/top1",
+      "value": 1.0,
+      "minimum": 0.997,
+      "pass": true
+    },
+    {
+      "guard": "black/dinosaur/top3",
+      "value": 1.0,
+      "minimum": 0.998,
+      "pass": true
+    },
+    {
+      "guard": "black/zombie/top1",
+      "value": 1.0,
+      "minimum": 0.996,
+      "pass": true
+    },
+    {
+      "guard": "black/zombie/top3",
+      "value": 1.0,
+      "minimum": 0.997,
+      "pass": true
+    },
+    {
+      "guard": "black/ghost/top1",
+      "value": 1.0,
+      "minimum": 0.998,
+      "pass": true
+    },
+    {
+      "guard": "black/ghost/top3",
+      "value": 1.0,
+      "minimum": 0.998,
+      "pass": true
+    },
+    {
+      "guard": "black/robot/top1",
+      "value": 1.0,
+      "minimum": 0.998,
+      "pass": true
+    },
+    {
+      "guard": "black/robot/top3",
+      "value": 1.0,
+      "minimum": 0.998,
+      "pass": true
+    },
+    {
+      "guard": "black/alien/top1",
+      "value": 0.998,
+      "minimum": 0.996,
+      "pass": true
+    },
+    {
+      "guard": "black/alien/top3",
+      "value": 0.999,
+      "minimum": 0.997,
+      "pass": true
+    },
+    {
+      "guard": "black/poop/top1",
+      "value": 1.0,
+      "minimum": 0.998,
+      "pass": true
+    },
+    {
+      "guard": "black/poop/top3",
+      "value": 1.0,
+      "minimum": 0.998,
+      "pass": true
+    },
+    {
+      "guard": "black/heart/top1",
+      "value": 1.0,
+      "minimum": 0.998,
+      "pass": true
+    },
+    {
+      "guard": "black/heart/top3",
+      "value": 1.0,
+      "minimum": 0.998,
+      "pass": true
+    },
+    {
+      "guard": "black/taco/top1",
+      "value": 0.999,
+      "minimum": 0.993,
+      "pass": true
+    },
+    {
+      "guard": "black/taco/top3",
+      "value": 1.0,
+      "minimum": 0.996,
+      "pass": true
+    },
+    {
+      "guard": "black/cheese/top1",
+      "value": 0.999,
+      "minimum": 0.996,
+      "pass": true
+    },
+    {
+      "guard": "black/cheese/top3",
+      "value": 1.0,
+      "minimum": 0.998,
+      "pass": true
+    },
+    {
+      "guard": "black/straw hat/top1",
+      "value": 0.998,
+      "minimum": 0.992,
+      "pass": true
+    },
+    {
+      "guard": "black/straw hat/top3",
+      "value": 1.0,
+      "minimum": 0.997,
+      "pass": true
+    },
+    {
+      "guard": "black/kunai/top1",
+      "value": 0.999,
+      "minimum": 0.994,
+      "pass": true
+    },
+    {
+      "guard": "black/kunai/top3",
+      "value": 0.999,
+      "minimum": 0.995,
+      "pass": true
+    },
+    {
+      "guard": "black/spiral/top1",
+      "value": 1.0,
+      "minimum": 0.994,
+      "pass": true
+    },
+    {
+      "guard": "black/spiral/top3",
+      "value": 1.0,
+      "minimum": 0.996,
+      "pass": true
+    },
+    {
+      "guard": "black/cursed face/top1",
+      "value": 0.999,
+      "minimum": 0.995,
+      "pass": true
+    },
+    {
+      "guard": "black/cursed face/top3",
+      "value": 1.0,
+      "minimum": 0.998,
+      "pass": true
+    },
+    {
+      "guard": "black/x2/top1",
+      "value": 1.0,
+      "minimum": 0.998,
+      "pass": true
+    },
+    {
+      "guard": "black/x2/top3",
+      "value": 1.0,
+      "minimum": 0.998,
+      "pass": true
+    },
+    {
+      "guard": "black/undo arrow/top1",
+      "value": 1.0,
+      "minimum": 0.998,
+      "pass": true
+    },
+    {
+      "guard": "black/undo arrow/top3",
+      "value": 1.0,
+      "minimum": 0.998,
+      "pass": true
+    },
+    {
+      "guard": "policy/real/top1",
+      "value": 0.7819703703703703,
+      "minimum": 0.7709703703703704,
+      "pass": true
+    },
+    {
+      "guard": "policy/real/top3",
+      "value": 0.9257555555555556,
+      "minimum": 0.9198703703703703,
+      "pass": true
+    },
+    {
+      "guard": "policy/synthetic/top1",
+      "value": 0.9988965517241379,
+      "minimum": 0.9912758620689656,
+      "pass": true
+    },
+    {
+      "guard": "policy/synthetic/top3",
+      "value": 0.9997241379310344,
+      "minimum": 0.9960689655172413,
+      "pass": true
+    },
+    {
+      "guard": "policy/custom-false-alarm",
+      "value": 0.0009407407407407408,
+      "maximum": 0.0006333333333333333,
+      "pass": false
+    },
+    {
+      "guard": "policy/black-hole-false-alarm",
+      "value": 0.00012592592592592592,
+      "maximum": 0.00015555555555555556,
+      "pass": true
+    },
+    {
+      "guard": "random/real/top1",
+      "value": 0.7693037037037037,
+      "minimum": 0.7657,
+      "pass": true
+    },
+    {
+      "guard": "random/real/top3",
+      "value": 0.9197222222222222,
+      "minimum": 0.9163185185185185,
+      "pass": true
+    },
+    {
+      "guard": "random/synthetic/top1",
+      "value": 0.9987931034482759,
+      "minimum": 0.9883793103448276,
+      "pass": true
+    },
+    {
+      "guard": "random/synthetic/top3",
+      "value": 0.999551724137931,
+      "minimum": 0.9948275862068966,
+      "pass": true
+    },
+    {
+      "guard": "random/custom-false-alarm",
+      "value": 0.0010592592592592594,
+      "maximum": 0.0006592592592592593,
+      "pass": false
+    },
+    {
+      "guard": "random/black-hole-false-alarm",
+      "value": 8.888888888888889e-05,
+      "maximum": 9.259259259259259e-05,
+      "pass": true
+    },
+    {
+      "guard": "filled/real/top1",
+      "value": 0.7331703703703704,
+      "minimum": 0.7098703703703704,
+      "pass": true
+    },
+    {
+      "guard": "filled/real/top3",
+      "value": 0.8951222222222223,
+      "minimum": 0.8808296296296296,
+      "pass": true
+    },
+    {
+      "guard": "filled/synthetic/top1",
+      "value": 0.9614482758620689,
+      "minimum": 0.9440689655172414,
+      "pass": true
+    },
+    {
+      "guard": "filled/synthetic/top3",
+      "value": 0.9834827586206897,
+      "minimum": 0.9731379310344828,
+      "pass": true
+    },
+    {
+      "guard": "filled/custom-false-alarm",
+      "value": 0.0015555555555555555,
+      "maximum": 0.0020925925925925925,
+      "pass": true
+    },
+    {
+      "guard": "filled/black-hole-false-alarm",
+      "value": 0.00024444444444444443,
+      "maximum": 0.00038888888888888887,
+      "pass": true
+    },
+    {
+      "guard": "filled/bomb/top1",
+      "value": 0.999,
+      "minimum": 0.968,
+      "pass": true
+    },
+    {
+      "guard": "filled/bomb/top3",
+      "value": 1.0,
+      "minimum": 0.987,
+      "pass": true
+    },
+    {
+      "guard": "filled/nuke/top1",
+      "value": 0.996,
+      "minimum": 0.896,
+      "pass": true
+    },
+    {
+      "guard": "filled/nuke/top3",
+      "value": 1.0,
+      "minimum": 0.9359999999999999,
+      "pass": true
+    },
+    {
+      "guard": "filled/meteor/top1",
+      "value": 0.981,
+      "minimum": 0.893,
+      "pass": true
+    },
+    {
+      "guard": "filled/meteor/top3",
+      "value": 0.992,
+      "minimum": 0.941,
+      "pass": true
+    },
+    {
+      "guard": "filled/volcano/top1",
+      "value": 1.0,
+      "minimum": 0.988,
+      "pass": true
+    },
+    {
+      "guard": "filled/volcano/top3",
+      "value": 1.0,
+      "minimum": 0.998,
+      "pass": true
+    },
+    {
+      "guard": "filled/tsunami/top1",
+      "value": 0.999,
+      "minimum": 0.993,
+      "pass": true
+    },
+    {
+      "guard": "filled/tsunami/top3",
+      "value": 1.0,
+      "minimum": 0.995,
+      "pass": true
+    },
+    {
+      "guard": "filled/black hole/top1",
+      "value": 0.971,
+      "minimum": 0.884,
+      "pass": true
+    },
+    {
+      "guard": "filled/black hole/top3",
+      "value": 0.984,
+      "minimum": 0.922,
+      "pass": true
+    },
+    {
+      "guard": "filled/pistol/top1",
+      "value": 0.998,
+      "minimum": 0.947,
+      "pass": true
+    },
+    {
+      "guard": "filled/pistol/top3",
+      "value": 0.998,
+      "minimum": 0.969,
+      "pass": true
+    },
+    {
+      "guard": "filled/tank/top1",
+      "value": 1.0,
+      "minimum": 0.993,
+      "pass": true
+    },
+    {
+      "guard": "filled/tank/top3",
+      "value": 1.0,
+      "minimum": 0.994,
+      "pass": true
+    },
+    {
+      "guard": "filled/rocket/top1",
+      "value": 0.997,
+      "minimum": 0.969,
+      "pass": true
+    },
+    {
+      "guard": "filled/rocket/top3",
+      "value": 1.0,
+      "minimum": 0.983,
+      "pass": true
+    },
+    {
+      "guard": "filled/grenade/top1",
+      "value": 0.991,
+      "minimum": 0.898,
+      "pass": true
+    },
+    {
+      "guard": "filled/grenade/top3",
+      "value": 0.997,
+      "minimum": 0.934,
+      "pass": true
+    },
+    {
+      "guard": "filled/dynamite/top1",
+      "value": 0.99,
+      "minimum": 0.93,
+      "pass": true
+    },
+    {
+      "guard": "filled/dynamite/top3",
+      "value": 0.997,
+      "minimum": 0.975,
+      "pass": true
+    },
+    {
+      "guard": "filled/ninja star/top1",
+      "value": 0.998,
+      "minimum": 0.954,
+      "pass": true
+    },
+    {
+      "guard": "filled/ninja star/top3",
+      "value": 1.0,
+      "minimum": 0.984,
+      "pass": true
+    },
+    {
+      "guard": "filled/bow and arrow/top1",
+      "value": 0.999,
+      "minimum": 0.988,
+      "pass": true
+    },
+    {
+      "guard": "filled/bow and arrow/top3",
+      "value": 0.999,
+      "minimum": 0.995,
+      "pass": true
+    },
+    {
+      "guard": "filled/shield/top1",
+      "value": 0.993,
+      "minimum": 0.815,
+      "pass": true
+    },
+    {
+      "guard": "filled/shield/top3",
+      "value": 0.998,
+      "minimum": 0.931,
+      "pass": true
+    },
+    {
+      "guard": "filled/dinosaur/top1",
+      "value": 0.998,
+      "minimum": 0.929,
+      "pass": true
+    },
+    {
+      "guard": "filled/dinosaur/top3",
+      "value": 1.0,
+      "minimum": 0.98,
+      "pass": true
+    },
+    {
+      "guard": "filled/zombie/top1",
+      "value": 0.998,
+      "minimum": 0.924,
+      "pass": true
+    },
+    {
+      "guard": "filled/zombie/top3",
+      "value": 0.999,
+      "minimum": 0.965,
+      "pass": true
+    },
+    {
+      "guard": "filled/ghost/top1",
+      "value": 1.0,
+      "minimum": 0.985,
+      "pass": true
+    },
+    {
+      "guard": "filled/ghost/top3",
+      "value": 1.0,
+      "minimum": 0.991,
+      "pass": true
+    },
+    {
+      "guard": "filled/robot/top1",
+      "value": 0.999,
+      "minimum": 0.997,
+      "pass": true
+    },
+    {
+      "guard": "filled/robot/top3",
+      "value": 1.0,
+      "minimum": 0.997,
+      "pass": true
+    },
+    {
+      "guard": "filled/alien/top1",
+      "value": 0.993,
+      "minimum": 0.961,
+      "pass": true
+    },
+    {
+      "guard": "filled/alien/top3",
+      "value": 0.996,
+      "minimum": 0.982,
+      "pass": true
+    },
+    {
+      "guard": "filled/poop/top1",
+      "value": 0.999,
+      "minimum": 0.975,
+      "pass": true
+    },
+    {
+      "guard": "filled/poop/top3",
+      "value": 1.0,
+      "minimum": 0.993,
+      "pass": true
+    },
+    {
+      "guard": "filled/heart/top1",
+      "value": 1.0,
+      "minimum": 0.976,
+      "pass": true
+    },
+    {
+      "guard": "filled/heart/top3",
+      "value": 1.0,
+      "minimum": 0.992,
+      "pass": true
+    },
+    {
+      "guard": "filled/taco/top1",
+      "value": 0.999,
+      "minimum": 0.975,
+      "pass": true
+    },
+    {
+      "guard": "filled/taco/top3",
+      "value": 1.0,
+      "minimum": 0.984,
+      "pass": true
+    },
+    {
+      "guard": "filled/cheese/top1",
+      "value": 0.996,
+      "minimum": 0.901,
+      "pass": true
+    },
+    {
+      "guard": "filled/cheese/top3",
+      "value": 0.999,
+      "minimum": 0.939,
+      "pass": true
+    },
+    {
+      "guard": "filled/straw hat/top1",
+      "value": 0.964,
+      "minimum": 0.944,
+      "pass": true
+    },
+    {
+      "guard": "filled/straw hat/top3",
+      "value": 1.0,
+      "minimum": 0.994,
+      "pass": true
+    },
+    {
+      "guard": "filled/kunai/top1",
+      "value": 0.998,
+      "minimum": 0.991,
+      "pass": true
+    },
+    {
+      "guard": "filled/kunai/top3",
+      "value": 1.0,
+      "minimum": 0.995,
+      "pass": true
+    },
+    {
+      "guard": "filled/spiral/top1",
+      "value": 0.725,
+      "minimum": 0.847,
+      "pass": false
+    },
+    {
+      "guard": "filled/spiral/top3",
+      "value": 0.928,
+      "minimum": 0.9369999999999999,
+      "pass": false
+    },
+    {
+      "guard": "filled/cursed face/top1",
+      "value": 0.322,
+      "minimum": 0.868,
+      "pass": false
+    },
+    {
+      "guard": "filled/cursed face/top3",
+      "value": 0.642,
+      "minimum": 0.932,
+      "pass": false
+    },
+    {
+      "guard": "filled/x2/top1",
+      "value": 0.979,
+      "minimum": 0.992,
+      "pass": false
+    },
+    {
+      "guard": "filled/x2/top3",
+      "value": 0.992,
+      "minimum": 0.998,
+      "pass": false
+    },
+    {
+      "guard": "filled/undo arrow/top1",
+      "value": 1.0,
+      "minimum": 0.997,
+      "pass": true
+    },
+    {
+      "guard": "filled/undo arrow/top3",
+      "value": 1.0,
+      "minimum": 0.998,
+      "pass": true
+    },
+    {
+      "guard": "painted/real/top1",
+      "value": 0.6900592592592593,
+      "minimum": 0.7104074074074074,
+      "pass": false
+    },
+    {
+      "guard": "painted/real/top3",
+      "value": 0.8638111111111111,
+      "minimum": 0.8777,
+      "pass": false
+    },
+    {
+      "guard": "painted/synthetic/top1",
+      "value": 0.9706206896551725,
+      "minimum": 0.5761379310344827,
+      "pass": true
+    },
+    {
+      "guard": "painted/synthetic/top3",
+      "value": 0.9842413793103448,
+      "minimum": 0.6100689655172413,
+      "pass": true
+    },
+    {
+      "guard": "painted/custom-false-alarm",
+      "value": 0.004925925925925926,
+      "maximum": 0.0006703703703703703,
+      "pass": false
+    },
+    {
+      "guard": "painted/black-hole-false-alarm",
+      "value": 0.0003444444444444444,
+      "maximum": 0.00018518518518518518,
+      "pass": false
+    },
+    {
+      "guard": "painted/bomb/top1",
+      "value": 0.987,
+      "minimum": 0.557,
+      "pass": true
+    },
+    {
+      "guard": "painted/bomb/top3",
+      "value": 0.994,
+      "minimum": 0.586,
+      "pass": true
+    },
+    {
+      "guard": "painted/nuke/top1",
+      "value": 0.976,
+      "minimum": 0.533,
+      "pass": true
+    },
+    {
+      "guard": "painted/nuke/top3",
+      "value": 0.993,
+      "minimum": 0.569,
+      "pass": true
+    },
+    {
+      "guard": "painted/meteor/top1",
+      "value": 0.969,
+      "minimum": 0.507,
+      "pass": true
+    },
+    {
+      "guard": "painted/meteor/top3",
+      "value": 0.98,
+      "minimum": 0.534,
+      "pass": true
+    },
+    {
+      "guard": "painted/volcano/top1",
+      "value": 0.992,
+      "minimum": 0.605,
+      "pass": true
+    },
+    {
+      "guard": "painted/volcano/top3",
+      "value": 0.998,
+      "minimum": 0.636,
+      "pass": true
+    },
+    {
+      "guard": "painted/tsunami/top1",
+      "value": 0.995,
+      "minimum": 0.612,
+      "pass": true
+    },
+    {
+      "guard": "painted/tsunami/top3",
+      "value": 0.998,
+      "minimum": 0.631,
+      "pass": true
+    },
+    {
+      "guard": "painted/black hole/top1",
+      "value": 0.921,
+      "minimum": 0.618,
+      "pass": true
+    },
+    {
+      "guard": "painted/black hole/top3",
+      "value": 0.955,
+      "minimum": 0.667,
+      "pass": true
+    },
+    {
+      "guard": "painted/pistol/top1",
+      "value": 0.992,
+      "minimum": 0.632,
+      "pass": true
+    },
+    {
+      "guard": "painted/pistol/top3",
+      "value": 0.997,
+      "minimum": 0.661,
+      "pass": true
+    },
+    {
+      "guard": "painted/tank/top1",
+      "value": 0.992,
+      "minimum": 0.622,
+      "pass": true
+    },
+    {
+      "guard": "painted/tank/top3",
+      "value": 0.996,
+      "minimum": 0.637,
+      "pass": true
+    },
+    {
+      "guard": "painted/rocket/top1",
+      "value": 0.994,
+      "minimum": 0.597,
+      "pass": true
+    },
+    {
+      "guard": "painted/rocket/top3",
+      "value": 0.998,
+      "minimum": 0.621,
+      "pass": true
+    },
+    {
+      "guard": "painted/grenade/top1",
+      "value": 0.986,
+      "minimum": 0.544,
+      "pass": true
+    },
+    {
+      "guard": "painted/grenade/top3",
+      "value": 0.996,
+      "minimum": 0.576,
+      "pass": true
+    },
+    {
+      "guard": "painted/dynamite/top1",
+      "value": 0.969,
+      "minimum": 0.6,
+      "pass": true
+    },
+    {
+      "guard": "painted/dynamite/top3",
+      "value": 0.989,
+      "minimum": 0.644,
+      "pass": true
+    },
+    {
+      "guard": "painted/ninja star/top1",
+      "value": 0.996,
+      "minimum": 0.579,
+      "pass": true
+    },
+    {
+      "guard": "painted/ninja star/top3",
+      "value": 1.0,
+      "minimum": 0.617,
+      "pass": true
+    },
+    {
+      "guard": "painted/bow and arrow/top1",
+      "value": 0.995,
+      "minimum": 0.634,
+      "pass": true
+    },
+    {
+      "guard": "painted/bow and arrow/top3",
+      "value": 1.0,
+      "minimum": 0.646,
+      "pass": true
+    },
+    {
+      "guard": "painted/shield/top1",
+      "value": 0.968,
+      "minimum": 0.494,
+      "pass": true
+    },
+    {
+      "guard": "painted/shield/top3",
+      "value": 0.991,
+      "minimum": 0.54,
+      "pass": true
+    },
+    {
+      "guard": "painted/dinosaur/top1",
+      "value": 0.997,
+      "minimum": 0.577,
+      "pass": true
+    },
+    {
+      "guard": "painted/dinosaur/top3",
+      "value": 0.998,
+      "minimum": 0.644,
+      "pass": true
+    },
+    {
+      "guard": "painted/zombie/top1",
+      "value": 0.979,
+      "minimum": 0.613,
+      "pass": true
+    },
+    {
+      "guard": "painted/zombie/top3",
+      "value": 0.992,
+      "minimum": 0.651,
+      "pass": true
+    },
+    {
+      "guard": "painted/ghost/top1",
+      "value": 0.995,
+      "minimum": 0.547,
+      "pass": true
+    },
+    {
+      "guard": "painted/ghost/top3",
+      "value": 0.999,
+      "minimum": 0.603,
+      "pass": true
+    },
+    {
+      "guard": "painted/robot/top1",
+      "value": 0.996,
+      "minimum": 0.692,
+      "pass": true
+    },
+    {
+      "guard": "painted/robot/top3",
+      "value": 0.999,
+      "minimum": 0.734,
+      "pass": true
+    },
+    {
+      "guard": "painted/alien/top1",
+      "value": 0.984,
+      "minimum": 0.53,
+      "pass": true
+    },
+    {
+      "guard": "painted/alien/top3",
+      "value": 0.994,
+      "minimum": 0.545,
+      "pass": true
+    },
+    {
+      "guard": "painted/poop/top1",
+      "value": 0.99,
+      "minimum": 0.606,
+      "pass": true
+    },
+    {
+      "guard": "painted/poop/top3",
+      "value": 0.999,
+      "minimum": 0.63,
+      "pass": true
+    },
+    {
+      "guard": "painted/heart/top1",
+      "value": 0.994,
+      "minimum": 0.478,
+      "pass": true
+    },
+    {
+      "guard": "painted/heart/top3",
+      "value": 0.998,
+      "minimum": 0.509,
+      "pass": true
+    },
+    {
+      "guard": "painted/taco/top1",
+      "value": 0.993,
+      "minimum": 0.644,
+      "pass": true
+    },
+    {
+      "guard": "painted/taco/top3",
+      "value": 0.999,
+      "minimum": 0.694,
+      "pass": true
+    },
+    {
+      "guard": "painted/cheese/top1",
+      "value": 0.981,
+      "minimum": 0.494,
+      "pass": true
+    },
+    {
+      "guard": "painted/cheese/top3",
+      "value": 0.991,
+      "minimum": 0.525,
+      "pass": true
+    },
+    {
+      "guard": "painted/straw hat/top1",
+      "value": 0.969,
+      "minimum": 0.529,
+      "pass": true
+    },
+    {
+      "guard": "painted/straw hat/top3",
+      "value": 0.997,
+      "minimum": 0.597,
+      "pass": true
+    },
+    {
+      "guard": "painted/kunai/top1",
+      "value": 0.992,
+      "minimum": 0.647,
+      "pass": true
+    },
+    {
+      "guard": "painted/kunai/top3",
+      "value": 0.997,
+      "minimum": 0.678,
+      "pass": true
+    },
+    {
+      "guard": "painted/spiral/top1",
+      "value": 0.84,
+      "minimum": 0.489,
+      "pass": true
+    },
+    {
+      "guard": "painted/spiral/top3",
+      "value": 0.894,
+      "minimum": 0.506,
+      "pass": true
+    },
+    {
+      "guard": "painted/cursed face/top1",
+      "value": 0.75,
+      "minimum": 0.453,
+      "pass": true
+    },
+    {
+      "guard": "painted/cursed face/top3",
+      "value": 0.831,
+      "minimum": 0.502,
+      "pass": true
+    },
+    {
+      "guard": "painted/x2/top1",
+      "value": 0.958,
+      "minimum": 0.626,
+      "pass": true
+    },
+    {
+      "guard": "painted/x2/top3",
+      "value": 0.97,
+      "minimum": 0.635,
+      "pass": true
+    },
+    {
+      "guard": "painted/undo arrow/top1",
+      "value": 0.998,
+      "minimum": 0.649,
+      "pass": true
+    },
+    {
+      "guard": "painted/undo arrow/top3",
+      "value": 1.0,
+      "minimum": 0.674,
+      "pass": true
+    },
+    {
+      "guard": "qd-game/real/top1",
+      "value": 0.4550883304304553,
+      "minimum": 0.2080024881811396,
+      "pass": true
+    },
+    {
+      "guard": "qd-game/real/top3",
+      "value": 0.6593680019905449,
+      "minimum": 0.3647578999751182,
+      "pass": true
+    },
+    {
+      "guard": "qd-game/custom-false-alarm",
+      "value": 0.0019905449116695696,
+      "maximum": 0.0019905449116695696,
+      "pass": true
+    },
+    {
+      "guard": "qd-game/black-hole-false-alarm",
+      "value": 0.0002488181139586962,
+      "maximum": 0.0004976362279173924,
+      "pass": true
+    },
+    {
+      "guard": "qd-game-black/real/top1",
+      "value": 0.4312017914904205,
+      "minimum": 0.18536003981089824,
+      "pass": true
+    },
+    {
+      "guard": "qd-game-black/real/top3",
+      "value": 0.6334909181388405,
+      "minimum": 0.3254446379696442,
+      "pass": true
+    },
+    {
+      "guard": "qd-game-black/custom-false-alarm",
+      "value": 0.002239363025628266,
+      "maximum": 0.001244090569793481,
+      "pass": false
+    },
+    {
+      "guard": "qd-game-black/black-hole-false-alarm",
+      "value": 0.0002488181139586962,
+      "maximum": 0.0007464543418760885,
+      "pass": true
+    },
+    {
+      "guard": "generated/real/top1",
+      "value": 0.978494623655914,
+      "minimum": 0.6216559139784946,
+      "pass": true
+    },
+    {
+      "guard": "generated/real/top3",
+      "value": 0.978494623655914,
+      "minimum": 0.7506881720430107,
+      "pass": true
+    },
+    {
+      "guard": "generated/synthetic/top1",
+      "value": 0.9924242424242424,
+      "minimum": 0.22424242424242424,
+      "pass": true
+    },
+    {
+      "guard": "generated/synthetic/top3",
+      "value": 1.0,
+      "minimum": 0.2962121212121212,
+      "pass": true
+    },
+    {
+      "guard": "generated/custom-false-alarm",
+      "value": 0.0,
+      "maximum": 0.0,
+      "pass": true
+    },
+    {
+      "guard": "generated/black-hole-false-alarm",
+      "value": 0.0,
+      "maximum": 0.0,
+      "pass": true
+    },
+    {
+      "guard": "generated-black/real/top1",
+      "value": 0.956989247311828,
+      "minimum": 0.6001505376344086,
+      "pass": true
+    },
+    {
+      "guard": "generated-black/real/top3",
+      "value": 0.967741935483871,
+      "minimum": 0.7184301075268817,
+      "pass": true
+    },
+    {
+      "guard": "generated-black/synthetic/top1",
+      "value": 0.9924242424242424,
+      "minimum": 0.16466666666666666,
+      "pass": true
+    },
+    {
+      "guard": "generated-black/synthetic/top3",
+      "value": 0.9962121212121212,
+      "minimum": 0.24042424242424243,
+      "pass": true
+    },
+    {
+      "guard": "generated-black/custom-false-alarm",
+      "value": 0.0,
+      "maximum": 0.0,
+      "pass": true
+    },
+    {
+      "guard": "generated-black/black-hole-false-alarm",
+      "value": 0.0,
+      "maximum": 0.0,
+      "pass": true
+    },
+    {
+      "guard": "black/real/top1/teacher40",
+      "value": 0.7737,
+      "minimum": 0.7756777777777778,
+      "pass": false
+    },
+    {
+      "guard": "black/real/top3/teacher40",
+      "value": 0.9221777777777778,
+      "minimum": 0.9228444444444445,
+      "pass": false
+    },
+    {
+      "guard": "black/synthetic/top1/teacher40",
+      "value": 0.9988275862068966,
+      "minimum": 0.9958275862068966,
+      "pass": true
+    },
+    {
+      "guard": "black/synthetic/top3/teacher40",
+      "value": 0.9997241379310344,
+      "minimum": 0.9974827586206897,
+      "pass": true
+    }
+  ],
+  "penalty": 160.14,
+  "utility": 0.8427132742710849,
+  "rank": -159.2972867257289
+}
